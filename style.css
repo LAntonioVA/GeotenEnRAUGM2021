@@ -1,0 +1,47 @@
+:root {
+    --DarkGray: #39434c;
+    --LightGray: #e5e5e5;
+    --MainBlue: #005570;
+    --MainBlue2: #308ea7;
+    --MainRed: #d61d1a;
+    --MainRed2: #e1383d;
+  
+    --SAOil: #4e4b4d;
+    --SARisk: #e61e25;
+    --SAEnergy: #f69226;
+    --SAMin: #ffc413;
+    --SAEnv: #9dcb3c;
+    --SAWater: #1a89b0;
+    --SAOffshore: #175b9a;
+    --SADet: #462b74;
+    --SASafe: #ac2185;
+    --SAGeotech: #c4c1c4;
+  
+    --NavFontSize: 2.4rem;
+    --NavSpacing: 0.3rem;
+  
+    --thin: 100;
+    --extralight: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+    --black: 900;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .LogoDimention {
+      height: 100vh;
+  }
