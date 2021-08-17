@@ -42,6 +42,142 @@
     font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .LogoDimention {
+  .Title {
+    font-weight: var(--black);
+  }
+
+ /*  .LogoDimention {
       height: 100vh;
+  } */
+
+  main {
+    display: flex;
+  }
+  .RAUGM-info{
+    height: 100vh;
+    
+    overflow-y: scroll;
+  }
+
+  .box {
+    width: 40vw;
+    height: 100vh;
+    background-color: var(--MainBlue);
+    overflow: hidden;
+
+   
+  }
+
+  .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+    
+  }
+
+  .detailed {
+    width: 60vw;
+    /* margin-top: 5vh; */
+    background-color: var(--LightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-left: 3vw;
+    margin-bottom: 5vh;
+  }
+
+  .MNL {
+    width: 60vw;
+    height: 100vh;
+    margin-top: 0vh;
+    background-color: var(--LightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding-left: 3vw;
+  }
+
+  .MNL a {
+    text-decoration: none;
+    color: var(--SAEnergy);
+  }
+
+  .MNL h1 {
+    font-size: 7.2rem;
+    font-weight: var(--semibold);
+  }
+
+  .MNL h2 {
+    font-size: 2.1rem;
+    font-weight: var(--medium);
+    /* padding-top: 5vh; */
+  }
+
+  .Main-button {
+    background-color: var(--SAEnergy);
+    /* margin: 10vh 0vh; */
+    
+    width: 25vw;
+    min-width: 3.1rem;
+    height: 3vw;
+    min-height: 0.2rem;
+
+    border-radius: 10rem;
+    border: none;
+
+    font-size: 1.8rem;
+    font-weight: var(--semibold);
+    color: white;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+  }
+
+  .detailed div {
+    display: flex;
+    margin-top: 7.5rem
+
+  }
+
+/*   .detailed p {
+    font-size: 1.8rem;
+    margin-top: 7.5rem
+
+  } */
+
+  .abstracts .text-abs{
+    margin: 2rem 2rem 2rem 0;
+    width: 70%;
+    font-size: 1.6rem;
+    font-weight: var(--regular);
+  }
+
+  .abstracts .butt-abs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  .sec-button {
+    background-color: var(--SAEnergy);
+    
+    width: 10vw;
+    min-width: 1.5rem;
+    height: 1.8vw;
+    min-height: 1.5rem;
+
+    border-radius: 10rem;
+    border: none;
+
+    font-size: 1.2rem;
+    font-weight: var(--semibold);
+    color: white;
   }

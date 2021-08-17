@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geotem en la RAUGM2021</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./interactive.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -13,13 +14,71 @@
     />
 </head>
 <body>
-    <header>
-        This is header place
+    <header class="Title">
     </header>
     <main>
-        <div class="Logo">
+        <section class="Logo box">
             <img class="LogoDimention" src="./images/coverpage-raugm2021.png" alt="Logo Reunion Anuel de Geofísicos 2021">
-        </div>
+        </section>
+        <section class="RAUGM-info">
+            <section class="MNL">
+                <div>
+                    <h1>¡Estamos en la<br>RAUGM 2021!</h1>
+                </div>
+                <div>
+                    <h2>Por sexto año consecutivo participaremos en la Reunión Anual de la Unión Geofísica Mexicaca 2021 del 31 de
+                        Octubre al 5 de Noviembre<br><br>Presentaremos 4 trabajos de <b>exploración magnética</b> y técnicas de
+                        <b>exploración con Machine Learning.</b> Para asistir inscríbete en
+                        <a href="https://www.raugm.org.mx/">www.raugm.org.mx</a></h2>
+                </div>
+                <div class="button-container">
+                    <button class="Main-button">
+                        <p>Conoce nuestros trabajos</p>
+                    </button>
+                </div>
+            </section>
+            <section class="detailed">
+                    <!-- <div><p>Nuestros trabajos</p></div> -->
+                    <div class="abstracts">
+                        <div class="text-abs">
+                            <p>Análisis espectral semi-automático de datos aeromagnéticos con distribución fractal para el cálculo de las
+                                profundidades de Curie en México</p>
+                        </div>
+                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                    </div>
+    
+                    <div class="abstracts">
+                        <div class="text-abs">
+                            <p>Inversión 2D de datos magnéticos adquiridos con drone en la mina Media Luna: Caso de estudio con magnetización
+                                remanente</p>
+                        </div>
+                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                    </div>
+    
+                    <div class="abstracts">
+                        <div class="text-abs">
+                            <p>Apendizaje supervisado para prospección y mapeo mineral a partid de información geocientífica, caso de estudio
+                                Mineria Media Luna.</p>
+                        </div>
+                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                    </div>
+    
+                    <div class="abstracts">
+                        <div class="text-abs">
+                            <p>Desarrollo de Redes neuronales profundas (DNN) para procesos de inversión geofísica 1D: Aplicación con datos TDEM, MT
+                                y HVSR. Análisis y refinamiento de hiperparámetros.</p>
+                        </div>
+                        <div class="butt-abs"> <button type="button" class="sec-button"><p>Ir al resumen</p></button></div>
+                    </div>
+
+
+                </section>
+                
+            </section>
+            
+                
+                
+        </section>
     </main>
 </body>
 </html>
