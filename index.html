@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geotem en la RAUGM2021</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./interactive.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./interactive.js"></script>
 </head>
 <body>
     <header class="Title">
     </header>
     <main>
+
+<!--           Bloque del logo del evento RAUGM2021 -->
+
         <section class="Logo box">
             <img class="LogoDimention" src="./images/coverpage-raugm2021.png" alt="Logo Reunion Anuel de Geofísicos 2021">
         </section>
+
+<!--                 Bloque principal de la historia de GTM en la RAUGM -->
+
         <section class="RAUGM-info">
             <section class="MNL">
                 <div>
@@ -32,19 +40,24 @@
                         <a href="https://www.raugm.org.mx/">www.raugm.org.mx</a></h2>
                 </div>
                 <div class="button-container">
-                    <button class="Main-button">
-                        <p>Conoce nuestros trabajos</p>
-                    </button>
+                    
+                    <a class="Main-button" href="#Detalles">Conoce nuestros trabajos</a>
+                    
                 </div>
             </section>
-            <section class="detailed">
-                    <!-- <div><p>Nuestros trabajos</p></div> -->
+
+<!--             Comienza la sección de los resúmenes de los trabajos -->
+
+            <section class="detailed" id="Detalles">
+
                     <div class="abstracts">
                         <div class="text-abs">
                             <p>Análisis espectral semi-automático de datos aeromagnéticos con distribución fractal para el cálculo de las
                                 profundidades de Curie en México</p>
                         </div>
-                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                        <div class="butt-abs">
+                            <button class="sec-button" type="button" onclick="window.open('https://www.raugm.org.mx/resumenes/sessions/abstract.php?abstractID=341&source=session')"><p>Ir al resumen</p></button>
+                        </div>
                     </div>
     
                     <div class="abstracts">
@@ -52,7 +65,9 @@
                             <p>Inversión 2D de datos magnéticos adquiridos con drone en la mina Media Luna: Caso de estudio con magnetización
                                 remanente</p>
                         </div>
-                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                        <div class="butt-abs">
+                            <button class="sec-button" type="button" onclick="window.open('https://www.raugm.org.mx/resumenes/sessions/abstract.php?abstractID=344&source=session')"><p>Ir al resumen</p></button>
+                        </div>
                     </div>
     
                     <div class="abstracts">
@@ -60,7 +75,9 @@
                             <p>Apendizaje supervisado para prospección y mapeo mineral a partid de información geocientífica, caso de estudio
                                 Mineria Media Luna.</p>
                         </div>
-                        <div class="butt-abs"> <button class="sec-button"><p>Ir al resumen</p></button></div>
+                        <div class="butt-abs">
+                            <button class="sec-button" type="button" onclick="window.open('https://www.raugm.org.mx/resumenes/sessions/abstract.php?abstractID=346&source=session')"><p>Ir al resumen</p></button>
+                        </div>
                     </div>
     
                     <div class="abstracts">
@@ -68,7 +85,9 @@
                             <p>Desarrollo de Redes neuronales profundas (DNN) para procesos de inversión geofísica 1D: Aplicación con datos TDEM, MT
                                 y HVSR. Análisis y refinamiento de hiperparámetros.</p>
                         </div>
-                        <div class="butt-abs"> <button type="button" class="sec-button"><p>Ir al resumen</p></button></div>
+                        <div class="butt-abs">
+                            <button class="sec-button" type="button" onclick="window.open('https://www.raugm.org.mx/resumenes/sessions/abstract.php?abstractID=343&source=session')"><p>Ir al resumen</p></button>
+                        </div>
                     </div>
 
 

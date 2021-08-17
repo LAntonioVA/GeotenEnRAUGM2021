@@ -57,6 +57,7 @@
     height: 100vh;
     
     overflow-y: scroll;
+    scroll-behavior: smooth;
   }
 
   .box {
@@ -85,7 +86,7 @@
     justify-content: space-around;
 
     padding-left: 3vw;
-    margin-bottom: 5vh;
+    padding-bottom: 10vh;
   }
 
   .MNL {
@@ -98,6 +99,7 @@
     justify-content: space-evenly;
 
     padding-left: 3vw;
+    padding-right: 3vw;
   }
 
   .MNL a {
@@ -127,10 +129,19 @@
 
     border-radius: 10rem;
     border: none;
+  }
 
+  .button-container a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     font-size: 1.8rem;
     font-weight: var(--semibold);
     color: white;
+    
+    margin: auto 0;
   }
 
   .button-container {
@@ -164,6 +175,10 @@
     align-items: center;
     margin: 0 auto;
     width: 30%;
+  }
+
+  .butt-abs button:hover{
+    cursor: pointer;
   }
 
   .sec-button {
