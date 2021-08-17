@@ -46,10 +46,6 @@
     font-weight: var(--black);
   }
 
- /*  .LogoDimention {
-      height: 100vh;
-  } */
-
   main {
     display: flex;
   }
@@ -57,13 +53,14 @@
     height: 100vh;
     
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
 
   .box {
     width: 40vw;
     height: 100vh;
-    background-color: var(--MainBlue);
+    /* background-color: var(--MainBlue); */
     overflow: hidden;
 
    
@@ -79,7 +76,6 @@
 
   .detailed {
     width: 60vw;
-    /* margin-top: 5vh; */
     background-color: var(--LightGray);
     display: flex;
     flex-direction: column;
@@ -93,7 +89,7 @@
     width: 60vw;
     height: 100vh;
     margin-top: 0vh;
-    background-color: var(--LightGray);
+/*     background-color: var(--LightGray); */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -108,19 +104,17 @@
   }
 
   .MNL h1 {
-    font-size: 7.2rem;
+    font-size: 7.1rem;
     font-weight: var(--semibold);
   }
 
   .MNL h2 {
     font-size: 2.1rem;
     font-weight: var(--medium);
-    /* padding-top: 5vh; */
   }
 
   .Main-button {
     background-color: var(--SAEnergy);
-    /* margin: 10vh 0vh; */
     
     width: 25vw;
     min-width: 3.1rem;
@@ -132,7 +126,6 @@
   }
 
   .button-container a{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,20 +140,13 @@
   .button-container {
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
+   /*  background-color: yellowgreen; */
   }
 
   .detailed div {
     display: flex;
-    margin-top: 7.5rem
-
+    margin-top: 7.1rem
   }
-
-/*   .detailed p {
-    font-size: 1.8rem;
-    margin-top: 7.5rem
-
-  } */
 
   .abstracts .text-abs{
     margin: 2rem 2rem 2rem 0;
@@ -195,4 +181,76 @@
     font-size: 1.2rem;
     font-weight: var(--semibold);
     color: white;
+  }
+
+  .socialNetworks {
+  /*   position: fixed; */
+    /* width: inherit; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .socialNetworks img{
+    
+    width: 3rem;
+    height: 3rem;
+    margin: 0 4%;
+  
+  }
+
+  .socialNetworks a{
+    background-color: none;
+    height: 3rem;
+
+    text-decoration: none;
+    color: var(--DarkGray);
+    font-weight: var(--semibold);
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    margin-right: 2.5%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .socialNetworks img:hover{
+    
+      cursor: pointer;
+    
+  }
+
+  .socialNetworks p{
+    height: 3rem;
+
+    text-decoration: none;
+    color: var(--DarkGray);
+    font-weight: var(--thin);
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2.5%;
+  }
+
+  .Titular {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .Titular h1{
+    border-left: solid var(--LightGray) 0.2rem;
+    padding-left: 5%;
+  }
+
+  #LogoGeotem-RAUGM {
+    width: 30%;
+   /* background-color: var(--MainBlue); */
+  }
+  #LogoGeotem-RAUGM img {
+    width: 100%;
+    align-items: center;
+    padding-right: 10%;
+    border-right: var(--MainBlue) 0.5rem solid;
   }
